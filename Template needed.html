@@ -1,0 +1,446 @@
+<html><head>
+        <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=us-ascii">
+
+        <style>
+        body {
+        font-family:Arial;
+		font-size:15px;
+        color: #333;        
+        }
+
+        .mn {
+		
+		width:100%;
+        border:1px solid black;
+        padding:0px 0px 0px 0px;
+        }
+
+        .tbl {
+        width: 100%;
+        max-width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+        margin-bottom: 30px;
+        }
+
+        .tbl>tbody>tr>td, .tbl>tbody>tr>th, .tbl>tfoot>tr>td, .tbl>tfoot>tr>th, .tbl>thead>tr>td, .tbl>thead>tr>th {
+        border: 1.5px solid #FFEDCF;
+        }
+
+		td
+		{
+        padding: 8px;		
+        vertical-align: top;
+        background: #fff;				
+		}
+		
+        th {
+        text-align: left;
+        }
+
+        .tr2 {
+        background-color:rgb(249,249,249);
+        }
+        .td1 {
+        background-color:#EC660280;
+        font-weight:bold;
+        vertical-align:middle !important;
+		width:200px;
+        padding: 18px;
+        }
+		
+		.td2 {
+		width:570px;
+        padding: 18px;
+        background: #fff;
+		}
+        .td3 {
+		width:130px;
+        vertical-align:middle !important;
+        background: #fff;
+        }
+
+        .imgg {
+    width: 100%;
+    float: right;
+    border: 2px solid white;
+    display: block;
+    background: #000;
+    color: #00DE1A;
+    border-radius: 12px;
+    font-size: 40px;
+    text-align: center;
+}
+		        .imgfail, .imgpass {
+        float:right;
+        vertical-align:middle;
+        background-size:70px; 
+         height:100%;
+		 width:100%;
+        background-position:center;
+        background-repeat:no-repeat;
+		color:white;
+        }
+
+
+        /* .imgOverallPASS {
+		background-color:#4dce36;		
+        background-repeat:no-repeat;               
+        } */
+		
+        .imgOverallFAIL {
+		background-color:#ef3737;				
+        background-repeat:no-repeat;
+        }
+
+        .imgFAIL {
+		background-color:#ef3737;		
+		content: 'whatever it is you want to add';
+        } 
+        .imgPASS {
+		background-color:#4dce36;
+		background-repeat:no-repeat;
+		border-radius: 15px;
+		height: 31px;
+		box-shadow: -3px 5px 10.9px 0px #00000040;
+		padding: 9px 9px 0;
+		width: -webkit-fill-available;
+		padding: 10px 20px 0;
+		width: -webkit-fill-available;
+		}
+        .note-bg{
+            background-image: url("../Email templates/img/note-bg.png");
+            background-repeat: no-repeat;
+            padding: 30px;
+            background-size: cover;
+            color: #fff;
+        }
+        td.td3 a {
+    background: #EC6602;
+    color: #fff;
+    padding: 11px;
+    font-size: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+		
+    </style>
+    </head>
+
+    <body>
+        <table width="904" cellspacing="0" cellpadding="0" border="2"
+            style="border-collapse: collapse;border-style: none; margin: 0 auto;">
+            <tr>
+                <td>
+                    <div class="mn" style="border:0px">
+                        <div class="imgg" style="margin-bottom: 20px;">
+                            <!-- <img src="../Email templates/img/email-banner.png"
+                                style="float:right; width: 100%;" /> -->
+                                <p>Overall Pass</p>
+
+                        </div>
+
+                        <div style="text-align: center;">
+                            <h3 style="margin-top: 20px;">Hello Team,</h3>
+                            <p>Please
+                                find continuous integration status for Build</p>
+                            <b><a href
+                                    style="color: #EC6602;">Release.T.ALL_20250110.4</a></b>
+                        </div>
+
+                        <div style="width:100%;margin-top: 20px; ">
+                            <table class="tbl" style="display:table;"
+                                cellspacing="0" cellpadding="0" border="1">
+                                <tr valign="bottom">
+                                    <td class="td1" colspan="3"
+                                        style="background-color:#000000; font-weight:bold;text-align:center !important; padding: 20px; border-radius: 8px 8px 0 0; color: #EC6602;"><center>BUILD
+                                        </center></td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">Date</td>
+                                    <td class="td2" style="font-weight: 600;">01/13/2025</td>
+                                    <td class="td3" rowspan="3">
+                                        <div class="imgPASS">
+                                            <center>PASS</center>&nbsp;<br>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1">Integration Release</td>
+                                    <td class="td2" style="font-weight: 600";>1.30.5391.4</td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">Build No</td>
+                                    <td class="td2"><a
+                                            href
+                                            style="color: #EC6602;font-weight: 600">Release.T.ALL_20250110.4</a></td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1">Result</td>
+                                    <td class="td2"
+                                        style="color: #009999;font-weight: 600">PASS</td>
+                                    <td class="td3" rowspan="3"><center>
+                                            <a
+                                                href="https://hlddashboard.onehc.net/LogFiles/!!azbd.rd001.onehc.net!Ex_RnD_vFilers_data!Automation!Logs!CI_AppLogs!Release.T.ALL_20250110.4\">Build
+                                                Logs <svg width="17" height="17" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8.08325 7.58329L18.9166 18.4166" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M8.08325 18.4166L18.9166 18.4166L18.9166 7.58329" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg> </a></center>
+                                    </td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1" style="border-radius: 0 0 0 8px;">Package Location</td>
+                                    <td  class="td2">
+                                        <a
+                                            style="word-break: break-all;color: #EC6602;font-weight: 600"
+                                            href="\\AZBD.Siemens.net\T10.Builds\Release.T.ALL\Release.T.ALL_Release.T.ALL_20250110.4\Release.T.Installer\Release.T.Installer_Release.T.ALL_20250110.4\Install\">
+                                            Package location for Build:
+                                            Release.T.ALL_20250110.4
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!----->
+                            <div style="height:20px">&nbsp;</div>
+
+                            <table class="tbl" style="display:table;"
+                                cellspacing="4" cellpadding="0" border="1">
+                                <tr>
+                                    <td class="td1" colspan="3"
+                                        style="    background-color: #000000;
+                                        font-weight: bold;
+                                        text-align: center !important;
+                                        padding: 20px;
+                                        border-radius: 8px 8px 0 0;
+                                        color: #EC6602;"><center>INSTALLATION</center></td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">Test Environment</td>
+                                    <td class="td2" style="font-weight: 600">Azure</td>
+                                    <td class="td3" rowspan="3">
+                                        <div
+                                            class="imgPASS"><center>PASS</center>&nbsp;<br></div>
+                                    </td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1">Configuration</td>
+                                    <td class="td2"style="font-weight: 600">DLC</td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">Install Type</td>
+                                    <td class="td2" style="font-weight: 600">Upgrade
+                                        Install(Build1.28.1.0r06)</td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">Run ID</td>
+                                    <td class="td2" style="font-weight: 600">105</td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1" style="border-radius: 0 0 0 8px;">Result</td>
+                                    <td class="td2" style="font-weight: 600">PASS </td>
+                                    <td class="td3"><center>
+                                            <a
+                                                href="https://hlddashboard.onehc.net/LogFiles/!!azbd.rd001.onehc.net!Ex_RnD_vFilers_data!Automation!Logs!CI_Deploy!Release.T.ALL_20250110.4/">Install 
+                                                Logs <svg width="17" height="17" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8.08325 7.58329L18.9166 18.4166" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M8.08325 18.4166L18.9166 18.4166L18.9166 7.58329" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg></a></center>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <div style="height:20px">&nbsp;</div>
+                            <!----->
+                            <table class="tbl" cellspacing="4" cellpadding="0"
+                                border="1">
+
+                                <tr>
+                                    <td class="td1" colspan="3"
+                                        style="    background-color: #000000;
+                                        font-weight: bold;
+                                        text-align: center !important;
+                                        padding: 20px;
+                                        border-radius: 8px 8px 0 0;
+                                        color: #EC6602;"><center>AUTOMATED
+                                            TEST EXECUTION</center></td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">Test Type</td>
+                                    <td class="td2"
+                                    style="font-weight: 600">InstallationReliabilityTest</td>
+                                    <td class="td3" rowspan="3"style="font-weight: 600">
+                                        <div
+                                            class="imgPASS"><center>PASS</center>&nbsp;<br></div>
+                                    </td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1">TestPlan ID</td>
+                                    <a
+                                        style="word-break: break-all; color: #EC6602;"
+                                        href="https://usmlva3002yztf.ww005.siemens.net/tfs/T10/Trinidad/_testManagement?planId=TBD&amp;suiteId=&amp;_a=tests">
+                                        TBD </a>
+                                    <td class="td2">
+                                        <a style="word-break: break-all;"
+                                            href="https://usmlva3002yztf.ww005.siemens.net/tfs/T10/Trinidad/_testManagement?planId=&amp;suiteId=&amp;_a=tests">
+
+                                        </a></td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">TestSuite ID</td>
+                                    <td class="td2">
+                                        <a
+                                            style="word-break: break-all; color:#EC6602;"
+                                            href="https://usmlva3002yztf.ww005.siemens.net/tfs/T10/Trinidad/_testManagement?planId=&amp;suiteId=&amp;_a=tests"><a
+                                                style="word-break: break-all; color:#EC6602;"
+                                                href="https://usmlva3002yztf.ww005.siemens.net/tfs/T10/Trinidad/_testManagement?planId=TBD&amp;suiteId=&amp;_a=tests">
+                                                TBD </a>
+
+                                        </a></td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">TestCase ID</td>
+                                    <td class="td2"><a
+                                            style="word-break: break-all; color: #EC6602;"
+                                            href="https://usmlva3002yztf.ww005.siemens.net/tfs/T10/Trinidad/_testManagement?planId=TBD&amp;suiteId=&amp;_a=tests">
+                                            TBD </a>
+                                        <a style="word-break: break-all;"
+                                            href="https://usmlva3002yztf.ww005.siemens.net/tfs/T10/Trinidad/_workitems?_a=edit&amp;id=">
+
+                                        </a></td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1">MTM Run ID</td>
+                                    <td class="td2"><a
+                                            style="word-break: break-all; color: #EC6602;"
+                                            href="https://usmlva3002yztf.ww005.siemens.net/tfs/T10/Trinidad/_testManagement?planId=TBD&amp;suiteId=&amp;_a=tests">
+                                            TBD </a>
+                                        <a style="word-break: break-all;"
+                                            href="https://usmlva3002yztf.ww005.siemens.net/tfs/T10/Trinidad/_testManagement/runs?_a=runCharts&amp;runId=">
+
+                                        </a> &nbsp;</td>
+                                    <td class="td3"></td>
+                                </tr>
+
+                                <tr class="tr1">
+                                    <td class="td1">Deployment Usable
+                                        Result</td>
+                                    <td class="td2" style="font-weight: 600">FAIL <span
+                                            style="font-size:12px">(Pass = );
+                                            Fail = ; NoRun = )</span></td>
+                                    <td class="td3" rowspan="3"><center>
+                                            <a
+                                                href="https://hlddashboard.onehc.net/LogFiles/!!azbd.rd001.onehc.net!Ex_RnD_vFilers_data!Automation!Logs!CI_TestResults!Release.T.ALL_20250110.4\">Test
+                                                Logs &nbsp <svg width="17" height="17" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8.08325 7.58329L18.9166 18.4166" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M8.08325 18.4166L18.9166 18.4166L18.9166 7.58329" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                    </a></center>
+                                    </td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">Test Result</td>
+                                    <td class="td2" style="font-weight: 600">PASS <span
+                                            style="font-size:12px">(Pass = );
+                                            Fail = ; NoRun = )</span></td>
+
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1" style="border-radius: 0 0 0 8px;">Loggers Path</td>
+                                    <td class="td2"></td>
+                                </tr>
+                            </table>
+
+                            <div style="height:20px">&nbsp;</div>
+
+                            <table class="tbl" style="display:table;"
+                                cellspacing="4" cellpadding="0" border="1">
+                                <tr>
+                                    <td class="td1" colspan="3"
+                                        style="    background-color: #000000;
+                                        font-weight: bold;
+                                        text-align: center !important;
+                                        padding: 20px;
+                                        border-radius: 8px 8px 0 0;
+                                        color: #EC6602;"><center>SYSTEM
+                                            DETAILS (PCC)</center></td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">IP Address</td>
+                                    <td class="td2_p" style="font-weight: 600"> 10.120.152.194</td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1">RAM</td>
+                                    <td class="td2_p" style="font-weight: 600">16</td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">OS</td>
+                                    <td class="td2_p" style="font-weight: 600">Microsoft Windows 10
+                                        Enterprise LTSC</td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1" style="border-radius: 0 0 0 8px;">System Type</td>
+                                    <td class="td2_p" style="font-weight: 600">64-bit</td>
+                                </tr>
+                            </table>
+
+                            <div style="height:20px">&nbsp;</div>
+
+                            <table class="tbl" style="display:table;"
+                                cellspacing="4" cellpadding="0" border="1">
+                                <tr>
+                                    <td class="td1" colspan="3"
+                                        style="    background-color: #000000;
+                                        font-weight: bold;
+                                        text-align: center !important;
+                                        padding: 20px;
+                                        border-radius: 8px 8px 0 0;
+                                        color: #EC6602;"><center>AUTOMATED
+                                            TRIAGE DETAILS</center></td>
+                                </tr>
+                                <tr class="tr1">
+                                    <td class="td1">ResponsibleTeam</td>
+                                    <td class="td2_p" style="font-weight: 600">N/A</td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1">ErrorMessage</td>
+                                    <td class="td2_p" style="font-weight: 600">N/A</td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1">ErrorPath</td>
+                                    <td class="td2_p" style="font-weight: 600">N/A</td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="td1" style="border-radius: 0 0 0 8px;">WorkItem</td>
+                                    <td class="td2_p" style="font-weight: 600">N/A</td>
+                                </tr>
+                            </table>
+                            <br>
+                            <div style="font-size: 40px;" class="note-bg">
+                                Note<span style="color: #EC6602;">:</span>
+                                <ul>
+                                    <li
+                                        style="padding-bottom: 10px; font-size: 18px;">This
+                                        is an <b
+                                            style="color: #EC6602;">auto-generated
+                                            report</b>
+                                        from DevOps Pipeline</li>
+                                    <li
+                                        style="padding-bottom: 10px; font-size: 18px;">Please
+                                        manually review in case failures
+                                        are reported </li>
+                                    <li
+                                        style="padding-bottom: 10px; font-size: 18px;"><a
+                                            href="https://hlddashboard.onehc.net/"
+                                            style="color: #009999;">For
+                                            details refer CI Page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr></table>
+    </body>
+</html>
